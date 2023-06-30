@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+tools:context=".registerActivity">
+
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="61dp"
+    android:layout_marginTop="77dp"
+    android:layout_marginEnd="61dp"
+    android:gravity="center"
+    android:text="@string/by_signing_"
+    android:textSize="15sp"
+    tools:ignore="TextSizeCheck" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="60dp"
+    android:layout_marginTop="42dp"
+    android:layout_marginEnd="62dp"
+    android:gravity="center"
+    android:text="@string/reinfit"
+    android:textSize="30sp"
+    android:textStyle="bold" />
+
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="54dp"
+    android:layout_marginTop="151dp"
+    android:backgroundTint="@color/white"
+    android:text="@string/login"
+    android:textColor="#0277BD"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/buttonregister"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="151dp"
+    android:layout_marginEnd="56dp"
+    android:backgroundTint="@color/white"
+    android:text="@string/register"
+    android:textColor="@color/black"
+    android:textSize="15sp" />
+
+<EditText
+    android:id="@+id/namaTxt"
+    android:layout_width="238dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="227dp"
+    android:layout_marginEnd="87dp"
+    android:autofillHints=""
+    android:background="@color/white"
+    android:drawableStart="@drawable/baseline_email_24"
+    android:hint="@string/type_your_email"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    android:padding="12dp"
+    android:textColorHint="#757575"
+    tools:ignore="VisualLintOverlap" />
+
+<EditText
+    android:id="@+id/passTxt"
+    android:layout_width="237dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="87dp"
+    android:layout_marginBottom="390dp"
+    android:autofillHints=""
+    android:background="@color/white"
+    android:drawableStart="@drawable/baseline_lock_24"
+    android:hint="@string/type_your_password"
+    android:inputType="textPassword"
+    android:minHeight="48dp"
+    android:padding="12dp"
+    android:textColorHint="#757575" />
+
+<Button
+    android:id="@+id/buttonlogin"
+    android:layout_width="318dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="46dp"
+    android:layout_marginEnd="47dp"
+    android:layout_marginBottom="315dp"
+    android:backgroundTint="#0386D0"
+    android:text="@string/log_in"
+    android:textSize="23sp"
+    tools:ignore="VisualLintButtonSize" />
+
+<View
+    android:id="@+id/group_24"
+    android:layout_width="match_parent"
+    android:layout_height="338dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="1dp"
+    android:layout_marginTop="72dp"
+    android:layout_marginBottom="-58dp"
+    android:background="@drawable/logo2"
+    tools:ignore="VisualLintBounds">
+
+</View>
+
+
+</RelativeLayout>

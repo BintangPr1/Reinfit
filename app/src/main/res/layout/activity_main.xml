@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="536dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="VisualLintOverlap" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="536dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/register"
+        android:textColor="#0277BD"
+        android:textSize="15sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="63dp"
+        android:gravity="center"
+        android:text="@string/reinfit"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="@string/by_signing_"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="89dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:hint="@string/type_your_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/confirmpassTxt"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="87dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:hint="@string/confirmation_pass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        tools:ignore="VisualLintOverlap" />
+
+    <EditText
+        android:id="@+id/namaTxt"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="89dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:hint="@string/type_your_email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="297dp"
+        android:backgroundTint="#0386D0"
+        android:text="@string/register"
+        android:textSize="23sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <View
+        android:id="@+id/group_24"
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-55dp"
+        android:background="@drawable/logo2"
+        tools:ignore="VisualLintBounds">
+
+    </View>
+
+
+</RelativeLayout>

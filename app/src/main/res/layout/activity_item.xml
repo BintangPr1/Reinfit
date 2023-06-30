@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ItemActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/profilebutton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/baseline_person_outline_24"
+        tools:ignore="VisualLintOverlap,SpeakableTextPresentCheck"
+         />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/baseline_search_24"
+        android:hint="@string/baju_adat_bugis"
+        android:inputType="text"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintOverlap" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/baseline_notification_important_24"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="350dp"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/rentbutton1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="#0386D0"
+        android:drawableStart="@drawable/baseline_cloud_upload_24"
+        android:text="@string/rent"
+        android:textColor="#000000"
+        tools:ignore="VisualLintOverlap,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/buyButton1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="#0386D0"
+        android:drawableStart="@drawable/baseline_shopping_cart_24"
+        android:text="@string/buy"
+        android:textColor="#000000"
+        tools:ignore="VisualLintOverlap" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rentbutton1"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/itemscrolling">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/imagebutton1"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:contentDescription="@string/imagebutton1"
+                        android:src="@drawable/image1" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="0dp"
+                        android:paddingEnd="15dp"
+                        android:text="@string/baju_adat_papua"
+                        android:textSize="14sp"
+                        app:drawableRightCompat="@drawable/cewecowo"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/rp_100_000_300_000"
+                        android:textColor="#D32F2F"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/rating1"
+                        tools:ignore="ImageContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/_10_telah_terjual_13_disewakan"
+                        android:textSize="9sp"
+                        android:textStyle="italic"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:contentDescription="@string/imagebutton2"
+                        android:src="@drawable/image2" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="0dp"
+                        android:paddingEnd="15dp"
+                        android:text="@string/baju_adat_batak"
+                        android:textSize="14sp"
+                        app:drawableRightCompat="@drawable/cewecowo"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/rp_125_000_450_000"
+                        android:textColor="#D32F2F"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/rating2"
+                        tools:ignore="ImageContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/_34_telah_terjual_50_disewakan"
+                        android:textSize="9sp"
+                        android:textStyle="italic"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:contentDescription="@string/imagebutton3"
+                        android:src="@drawable/image3" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="0dp"
+                        android:paddingEnd="15dp"
+                        android:text="@string/baju_adat_jawa"
+                        android:textSize="14sp"
+                        app:drawableRightCompat="@drawable/cewecowo"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/rp_50_000_350_000"
+                        android:textColor="#D32F2F"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/rating1"
+                        tools:ignore="ImageContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/_100_telah_terjual_150_disewakan"
+                        android:textSize="9sp"
+                        android:textStyle="italic"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imagebutton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:contentDescription="@string/imagebutton4"
+                        android:src="@drawable/image4" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="0dp"
+                        android:paddingEnd="8dp"
+                        android:text="@string/baju_adat_minang"
+                        android:textSize="14sp"
+                        app:drawableRightCompat="@drawable/cewecowo"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/rp_150_000_450_000"
+                        android:textColor="#D32F2F"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/rating1"
+                        tools:ignore="ImageContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/_10_telah_terjual_13_disewakan"
+                        android:textSize="9sp"
+                        android:textStyle="italic"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

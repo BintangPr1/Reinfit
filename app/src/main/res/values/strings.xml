@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">cart</string>
+    <string name="by_signing_">
+By signing in you are agreeing our Term and privacy policy
+</string>
+
+    <string name="baju_adat_bugis">Baju adat Bugis</string>
+    <string name="rent">Rent</string>
+    <string name="buy">Buy</string>
+    <string name="itemscrolling">itemscrolling</string>
+    <string name="imagebutton1">imagebutton!</string>
+    <string name="baju_adat_papua">Baju Adat Papua</string>
+    <string name="rp_100_000_300_000">Rp.100.000 -, 300.000</string>
+    <string name="_10_telah_terjual_13_disewakan">10+ Telah terjual - 13+ Disewakan</string>
+    <string name="imagebutton2">imagebutton2</string>
+    <string name="baju_adat_batak">Baju Adat Batak</string>
+    <string name="rp_125_000_450_000">Rp.125.000 -, 450.000</string>
+    <string name="todo">TODO</string>
+    <string name="_34_telah_terjual_50_disewakan">34+ Telah terjual - 50+ Disewakan</string>
+    <string name="imagebutton3">imagebutton3</string>
+    <string name="baju_adat_jawa">Baju Adat Jawa</string>
+    <string name="rp_50_000_350_000">Rp.50.000 -, 350.000</string>
+    <string name="_100_telah_terjual_150_disewakan">100+ Telah terjual - 150+ Disewakan</string>
+    <string name="imagebutton4">imagebutton4</string>
+    <string name="baju_adat_minang">Baju Adat Minang</string>
+    <string name="rp_150_000_450_000">Rp.150.000 -, 450.000</string>
+
+
+    <string name="alamatpengirim">
+Alamat Pengirim\n
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien vel felis laoreet vestibulum quis ac felis. Quisque sagittis tempor erat sed finibus. Phasellus faucibus massa urna, et fermentum diam aliqum sed"
+    </string>
+    <string name="Store">
+    Happy Papua Store
+    </string>
+    <string name="Baju">
+Baju Adat Papua
+    </string>
+    <string name="ukuran">Ukuran:XL</string>
+    <string name="harga">Rp.350.000</string>
+    <string name="opsi">Opsi Pengiriman</string>
+    <string name="reguler">Reguler</string>
+    <string name="akan">Akan diterima paling lambat 2-,7 jun</string>
+    <string name="biayapengiriman">Rp.15.000</string>
+    <string name="pesan">Pesan:</string>
+    <string name="totalproduk">Subtotal untuk produk</string>
+    <string name="totalpengiriman">Subtotal untuk pengiriman</string>
+    <string name="layanan">Biaya layanan</string>
+    <string name="biayalayanan">Rp.1.000</string>
+    <string name="penanganan">Biaya penanganan</string>
+    <string name="biayapenanganan">Rp.1.000</string>
+    <string name="total">Total pembayaran</string>
+    <string name="biayatotal">Rp.366.000</string>
+    <string name="buat">BUAT PESANAN</string>
+    <string name="biayakirim">Rp.15.000</string>
+    <string name="bebas">bebas</string>
+    <string name="gambarpakaian">gambarpakaian</string>
+    <string name="confirmation_pass">Confirmation pass</string>
+    <string name="type_your_password">Type Your Password</string>
+    <string name="register">Register</string>
+    <string name="reinfit">ReinFit</string>
+    <string name="login">login</string>
+    <string name="type_your_email">Type Your Email</string>
+    <string name="log_in">Login</string>
+    <string name="harga2">Rp.100.000</string>
+    <string name="biayapengiriman2">Rp.40.000</string>
+    <string name="biayatotal2">Rp.142.000</string>
+    <string name="akan2">Hari ini sampai</string>
+    <string name="sameday">Sameday</string>
+    <string name="profilebutton">profilebutton</string>
+    <string name="john_doe">John Doe</string>
+    <string name="_34_have_bought">34+ have bought</string>
+    <string name="upload_your_identify_card">Upload Your Identify Card</string>
+    <string name="nik">NIK</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="place_of_birth">Place of Birth</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="religion">Religion</string>
+    <string name="nationality">Nationality</string>
+    <string name="logout">Logout</string>
+    <string name="detailbajuadatpapua">
+Pakaian adat Papua untuk pria dan/n
+wanita dengan ukuran fit untuk/n
+dewasa umur 19-,24 tahin</string>
+    <string name="size">Size</string>
+    <string name="back">Back</string>
+    <string name="rating">rating</string>
+    <string name="buybutton1">buybutton1</string>
+    <string name="xl">XL</string>
+    <string name="setingan">setingan</string>
+    <string name="pakaian_adat_batak">Pakaian Adat Batak</string>
+    <string name="_19_may">19 May</string>
+    <string name="kurir_sedang_menuju_ke_lokasimu">Kurir sedang menuju ke lokasimu</string>
+    <string name="_2023">2023</string>
+    <string name="outstanding_payment">Outstanding Payment</string>
+    <string name="baju2">baju2</string>
+    <string name="pakaian_adat_papua">Pakaian Adat Papua</string>
+    <string name="_1_may">1 May</string>
+    <string name="pesanan_telah_selesai_diantar">Pesanan telah selesai diantar</string>
+    <string name="baju3">baju3</string>
+    <string name="pakaian_adat_toraja">Pakaian Adat Toraja</string>
+    <string name="_23_march">23 March</string>
+    <string name="baju4">baju4</string>
+    <string name="_1_march">1 March</string>
+    <string name="baju5">baju5</string>
+    <string name="_30_january">30 January</string>
+    <string name="history">History</string>
+
+</resources>

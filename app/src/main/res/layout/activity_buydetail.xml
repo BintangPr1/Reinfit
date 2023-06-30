@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuydetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bebas"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="315dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="48dp"
+                    android:autofillHints="bajuadatpapua"
+                    android:drawableStart="@drawable/baseline_search_24"
+                    android:hint="@string/baju_adat_papua"
+                    android:inputType=""
+                    tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginStart="12dp"
+                    android:src="@drawable/baseline_notification_important_24"
+                    android:contentDescription="@string/baju_adat_papua" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:src="@drawable/pakaianadatpapua"
+                    android:contentDescription="@string/baju_adat_papua" />
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="320dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/baju_adat_papua"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:drawableRightCompat="@drawable/cewecowo"
+                    tools:ignore="RtlSymmetry,TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="360dp"
+                    android:text="@string/detailbajuadatpapua"
+                    android:textColor="#000000"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="450dp"
+                    android:layout_marginStart="18dp"
+                    android:text="@string/size"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="500dp"
+                    android:layout_marginStart="18dp"
+                    android:text="@string/xl"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:background="#5C5C5C"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="590dp"
+                    android:layout_marginStart="18dp"
+                    android:text="@string/harga"
+                    android:textColor="#D32F2F"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="630dp"
+                    android:contentDescription="@string/rating"
+                    android:src="@drawable/rating1"
+                    tools:ignore="ImageContrastCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="650dp"
+                    android:text="@string/_10_telah_terjual_13_disewakan"/>
+                <Button
+                    android:id="@+id/buttonback"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="700dp"
+                    android:backgroundTint="#000000"
+                    android:text="@string/back"/>
+
+                <Button
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="700dp"
+                    android:backgroundTint="#0386D0"
+                    android:text="@string/buy"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:id="@+id/button1"
+                    android:contentDescription="@string/buybutton1"/>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
